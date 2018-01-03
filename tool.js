@@ -1,7 +1,7 @@
 // tool.js
 
 // .debug is the method exported
-exports.debug = function(title, output, level){
+exports.debug = (title, output, level) => {
 
     // If the DEBUG_MODE env is set.
     // If not set when we parseInt() unexpected results
